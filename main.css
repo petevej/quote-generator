@@ -9,22 +9,32 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.row {
-  position: relative;
-}
 /* transition slowly when click New Quote*/
 /* randomize top and left upon refresh */
 #quoteBox {
-  width: 600px;
+  width: 450px;
   height: auto;
   margin-top: 5%;
-  margin-left: 5%;
+  align-content: center;
   position: absolute;
-  top: 50px;
-  left: 50px;
 }
 
 .jumbotron {
   width: 600px !important;
   height: 350px !important;
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+}
+
+#tweet {
+  position: relative;
+  bottom: 12px;
+}
+
+#newQuote {
+  position: relative;
+  bottom: 2px;
 }
