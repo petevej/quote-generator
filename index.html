@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <title>Random Quote Generator</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="quoteBox" class="jumbotron col-lg-4">
+        <div id="quoteBody">
+          <h2>Random Quote Generator</h2>
+          <div id="quoteText">
+            <div id="quoteTitle"></div>
+            <div id="quoteContent"></div>
+            <div id="quoteSource"></div>
+          </div>
+          <!--update custom text based on quote and owner-->
+          <a id="tweet" class="twitter-share-button"
+              href="https://twitter.com/share"
+              data-size="large"
+              data-text="custom share text"
+              data-url="https://dev.twitter.com/web/tweet-button"
+              data-hashtags="example,demo"
+              data-via="twitterdev"
+              data-related="twitterapi,twitter">Tweet
+          </a>
+          <a id="newQuote" href="#" class="btn btn-sm btn-outline-primary">New Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <!--AJAX-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <!--Bootstrap 4-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/twitter.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

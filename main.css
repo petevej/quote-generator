@@ -1,0 +1,25 @@
+body {
+  height: 100%;
+  width: 100%;
+  /* shuffle background img upon refresh */
+  background-image: url('https://lh3.googleusercontent.com/OlqTNJwxB8ngHOq4ntPF8kw9plCmFoy9rDEcNU4gF7h_CIllyd03L3PEO1MpIXydYZOcW3bUxAPi99KhuNeNqLaK82g_RoRR=w1920-h1080-rw-no');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row {
+  position: relative;
+}
+/* transition slowly when click New Quote*/
+/* randomize top and left upon refresh */
+#quoteBox {
+  width: 600px;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
