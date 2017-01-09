@@ -13,37 +13,49 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div id="quoteBox" class="jumbotron col-lg-4">
+      <div id="quoteBox" class="jumbotron">
         <div id="quoteBody">
-          <h2>Random Quote Generator</h2>
+          <h3>Quote-O-Matic</h3><br />
           <div id="quoteText">
-            <div id="quoteTitle"></div>
-            <div id="quoteContent"></div>
-            <div id="quoteSource"></div>
-          </div>
-          <!--update custom text based on quote and owner-->
-          <a id="tweet" class="twitter-share-button"
-              href="https://twitter.com/share"
-              data-size="large"
-              data-text="custom share text"
-              data-url="https://dev.twitter.com/web/tweet-button"
-              data-hashtags="example,demo"
-              data-via="twitterdev"
-              data-related="twitterapi,twitter">Tweet
+            <div id="quoteContent"><p><em>Do not go gentle into that good night,<br>
+              Old age should burn and rave at close of day;<br>
+              Rage, rage against the dying of the light.</em></p></div>
+              <div id="quoteSource"><p>- Dylan Thomas</p></div>
+            </div>
+            <!--update custom text based on quote and owner-->
+            <div id="tweet">
+            <a class="twitter-share-button"
+            href="https://twitter.com/share"
+            data-text="Do not go gentle into that good night..."
+            data-url="1"
+            data-hashtags="DylanThomas"
+            data-via="petevejanurug"
+            data-related="twitterapi,twitter">Tweet
           </a>
-          <a id="newQuote" href="#" class="btn btn-sm btn-outline-primary">New Quote</a>
+        </div>
+          <a id="newQuote" href="#" class="btn btn-sm btn-outline-warning">New Quote</a>
         </div>
       </div>
     </div>
   </div>
-  <!--jQuery-->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <!--jQuery use the full version for AJAX-->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
   <!--AJAX-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+  crossorigin="anonymous"></script>
   <!--Bootstrap 4-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <script src="js/twitter.js"></script>
-  <script src="js/main.js"></script>
-
+  <script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+  crossorigin="anonymous"></script>
+  <script
+  src="js/main.js"></script>
+  <script
+  src="js/twitter.js"></script>
 </body>
 </html>

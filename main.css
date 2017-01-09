@@ -23,3 +23,8 @@ body {
   top: 50px;
   left: 50px;
 }
+
+.jumbotron {
+  width: 600px !important;
+  height: 350px !important;
+}
